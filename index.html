@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>e-Product Details</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="Malti-products">
+                    <div class="product-img-container">
+                        <img onmouseover="GetmainproductImg(this.src)" src="./img/Apple-Watch-Green-Band.png" alt="apple watch">
+                    </div>
+                    <div class="product-img-container">
+                        <img onmouseover="GetmainproductImg(this.src)" src="./img/apple-2.png" alt="apple watch">
+                    </div>
+
+                    <div class="product-img-container">
+                        <img onmouseover="GetmainproductImg(this.src)" src="./img/apple-3.png" alt="apple watch">
+                    </div>
+
+                </div>
+                <div class="single-products">
+                    <div class="main-product-container">
+                        <img src="./img/Apple-Watch-Green-Band.png" alt="apple watch">
+                    </div>
+
+                </div>
+            </div>
+            <div class="product-detail">
+                <h2>Apple watch</h2>
+                <div class="price-container del-box">
+                    <label>Price:</label>
+                    <input type="number">
+                </div>
+                <div class="qat-container del-box">
+                    <label>Quantity:</label>
+                    <input type="number">
+                </div>
+                <div class="discount-container del-box">
+                    <label>Discount:</label>
+                    <input type="text">
+                </div>
+                <div class="tax-container del-box">
+                    <label>Text 13%:</label>
+                    <span>text price here</span>
+                </div>
+                <div class="total-container del-box">
+                    <label>Total:</label>
+                    <span>0.00</span>
+                </div>
+            </div>
+        </div>
+
+        </div>
+    </section>
+    <script src="./main.js"></script>
+</body>
+
+</html>

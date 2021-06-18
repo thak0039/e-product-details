@@ -1,0 +1,89 @@
+            * {
+                margin: 0;
+                padding: 0;
+            }
+            
+            body {
+                /* background-color: black; */
+            }
+            
+            .container {
+                width: 80%;
+                /* background-color: blue; */
+                display: flex;
+                margin: auto;
+                margin-top: 5%;
+            }
+            
+            .container .row {
+                flex: 1 50%;
+                /* background-color: rgb(167, 117, 23); */
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            
+            .container .product-detail {
+                flex: 2 40%;
+                margin-left: 20px;
+                background-color: white;
+                margin-top: 20px;
+                /* background-color: rgb(23, 167, 54); */
+            }
+            
+            .row .Malti-products {
+                flex: 1 10%;
+            }
+            
+            .row .single-product {
+                flex: 2 90%;
+            }
+            
+            .row .Malti-products .product-img-container {
+                /* background-color: red; */
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border-radius: 30px;
+                /* border: 1px solid gray; */
+                box-shadow: 0.5px 0.5px 6px black;
+                height: 170px;
+                width: 170px;
+                margin: 10px 20px;
+                cursor: pointer;
+                overflow: hidden;
+                transition: all 0.3s ease;
+            }
+            
+            .row .Malti-products .product-img-container img:hover {
+                transform: scale(0.5);
+            }
+            
+            .Malti-products .product-img-container img {
+                height: 150px;
+                width: 150px;
+            }
+            
+            .main-product-container {
+                border-radius: 30px;
+                /* border: 1px solid gray; */
+                box-shadow: 1px 1px 5px black;
+                /* background-color: tomato; */
+                height: 500px;
+                width: 500px;
+                overflow: hidden;
+            }
+            
+            .single-products .main-product-container img {
+                max-width: none;
+                max-height: none;
+                transition: all 0.3s ease;
+            }
+            
+            .single-products .main-product-container img:hover {
+                transform: scale(1.5);
+            }
+            
+            .product-detail .del-box {
+                padding: 1rem;
+            }
