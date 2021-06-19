@@ -87,3 +87,7 @@
             .product-detail .del-box {
                 padding: 1rem;
             }
+            
+            input {
+                padding: 10px;
+            }

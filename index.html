@@ -37,15 +37,23 @@
                 <h2>Apple watch</h2>
                 <div class="price-container del-box">
                     <label>Price:</label>
-                    <input type="number">
+                    <input id="price" onchange="showValueOnSide()" type="number" placeholder="Price">
+                    <span id="selectprice"></span>
                 </div>
                 <div class="qat-container del-box">
                     <label>Quantity:</label>
-                    <input type="number">
+                    <input id="qat" onchange="showValueOnSide()" type="number" placeholder="QAT">
+                    <span id="selectqat"></span>
                 </div>
                 <div class="discount-container del-box">
                     <label>Discount:</label>
-                    <input type="text">
+                    <input id="discount" onchange="showValueOnSide()" type="number" placeholder="% discount">
+                    <span id="selectdiscount"></span>
+                    <span id="disprice"></span>
+                </div>
+                <div class="subtotal-container del-box">
+                    <label>Sub total:</label>
+                    <span id="subtotatal">0.00</span>
                 </div>
                 <div class="tax-container del-box">
                     <label>Text 13%:</label>
@@ -53,7 +61,7 @@
                 </div>
                 <div class="total-container del-box">
                     <label>Total:</label>
-                    <span>0.00</span>
+                    <span id="total-price">0.00</span>
                 </div>
             </div>
         </div>
