@@ -18,10 +18,9 @@ function showValueOnSide() {
     subtotal = priPluseQat - per;
     document.getElementById('subtotatal').innerHTML = subtotal;
     prodTax = subtotal * 13 / 100;
-
+    document.getElementById('taxdisplay').innerHTML = prodTax;
     pluseProdtax = subtotal + prodTax;
     document.getElementById('total-price').innerHTML = pluseProdtax;
     // console.log(subtotal);
-
 
 }
